@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+#toggle{
+    display: :none;
+}
+#links{
+    width:80px;
+    height: 400px;
+    position: absolute;
+    margin-top: 125px;
+}
+
+#home-button{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 18px;
+    transform: rotate(90deg);
+}
+#about-button{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 18px;
+    transform: rotate(90deg);
+}
+#folio-button{
+    position: absolute;
+    margin-top: 372px;
+    margin-left: 18px;
+    transform: rotate(90deg);
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+body{
+    overflow-x: hidden;
+}
+#home{
+    width:1286px;
+    height:100%;
+    background: #111111;
+    position: absolute;
+    left:80px;
+}
+
+#menu{
+    width:80px;
+    height:100%;
+    background: white;
+    position: fixed;
+}
+#footer{
+    position:fixed;
+    margin-top:602px;
+    margin-left:660px;
+}
+.footer{
+    color: #bfbfbf;
+    font-size: 0.8em;
+}
+#logo-content {
+    position: absolute;
+    line-height: 660px;
+    margin-left:535px;
+}
+#about{
+    position: absolute;
+    left:80px;
+    width:1286px;
+    height:100%;
+}
+#image-left{
+    width:643px;
+    height:100%;
+    float:left;
+    background:#111111;
+}
+#content-right{
+    width:643px;
+    height:100%;
+    float:right;
+    background:white;
+}
+
+#folio{
+    position: absolute;
+    left:80px;
+    width:1286px;
+    height:100%;
+}
+#folio-image-left{
+    width:643px;
+    height:100%;
+    float:left;
+    background:#111111;
+    position: fixed;
+}
+#folio-content-right{
+    width:643px;
+    height:100%;
+    float:right;
+    background:white;
+}
+
+#image-left h1{
+    color: white;
+    line-height: 650px;
+    text-align: center;
+}
+
+#content-right p {
+    line-height: 650px;
+    text-align: center;
+    
+}
+#content-right span {
+    text-transform: capitalize;
+    
+}
+#home p{
+    color: white;
+}
+
+#folio-image-left h1{
+    color: white;
+    line-height: 650px;
+    text-align: center;
+}
+
+#folio-content-right{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.one {
+    min-width: 321.5px;
+    height:321.5px;
+    background-image: url(images/e.jpg);
+    background-size: cover;
+    color: white;
+}
+.two {
+    min-width: 321.5px;
+    height:321.5px;
+    background: orange;
+}
+.three {
+    min-width: 321.5px;
+    height:321.5px;
+    background: aqua;
+}
+.four {
+    min-width: 321.5px;
+    height:321.5px;
+    background: yellow;
+}
+
+#folio-content-right .one,.two,.three,.four{
+    text-align: center;
+    line-height: 321.5px;
+    
+}
+
+.one:after{
+    content: "Resort Site";
+    width: 321.5px;
+    height: 321.5px;
+    display: block;
+    background: black;
+    opacity: 0.6;
+    top:0px;
+    position: abssolute;
+    transition: all ease-in-out 0.3s;
+}
+
+.one:hover:after{
+    content: "";
+    position: absolute;
+    top:0;
+    opacity: 0;
+    transition: all ease-in-out 0.2s;
+}
+
+
+#home{
+    overflow-y: hidden;
+}
+
+
